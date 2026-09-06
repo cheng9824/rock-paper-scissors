@@ -51,10 +51,6 @@ function playGame() {
     playRound(humanSelection, computerSelection);
 }
 
-for (i = 1; i <= 5; i++) {
-    playGame();
-}
-
 if (humanScore > computerScore) {
     console.log("You win!")
 } else if (humanScore < computerScore) {
